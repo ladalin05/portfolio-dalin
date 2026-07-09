@@ -127,21 +127,22 @@ export const projects = [
     title: 'Real Estate',
     category: 'Full-Stack App',
     subcategory: 'Property listing platform',
-    desc: 'A full-stack property listing platform for the Cambodian market buyers and renters can browse verified listings, filter by location, type, and price, and connect with agents through a built-in contact system, backed by a feature-rich admin dashboard.',
-    overview: `Real Estate is a full-stack property listing platform built for the Cambodian market, connecting buyers, renters, and agents through a clean, searchable web interface. The platform covers the full lifecycle of a property listing from creation and verification to discovery and inquiry.
-      On the public side, visitors land on a hero page with a location and property-type search bar, giving instant access to 2,000+ verified listings. They can browse by property category Residential, Office, Land, Industrial, House, Commercial, and Apartment each presented with dedicated category pages. The property listings page offers advanced filtering by keyword, purpose (sale or rent), property type, location, bedroom count, and price range, with results displayed in grid or list view and sortable by newest.
-      Each property card shows key details at a glance: price, address, bed and bath count, square footage, listing status (Sale, Rent, Verified, Pending), and the assigned agent. A contact page with an integrated inquiry form lets visitors reach the team directly, with agent contact details and a 24-hour response guarantee.
-      Authentication is handled through a clean sign-in and sign-up flow, giving users access to saved listings and personalized features once logged in.
-      The admin dashboard is the operational backbone of the platform. It provides a real-time overview of property types (7), total listings (30), registered users, and system reports. A financial summary tracks daily, weekly, monthly, and yearly revenue. Admins can manage properties, locations, users, customer interactions, blog posts, reports, and platform settings all from a structured sidebar navigation. The latest property activity and system report feed keep admins informed at a glance.
+    desc: 'A full-stack property listing platform for the Cambodian market — buyers and renters can search verified listings by location, type, and price, and connect directly with agents, backed by a feature-rich admin dashboard.',
+    overview: `Real Estate is a full-stack property listing platform built for the Cambodian market, connecting buyers, renters, and agents through a clean, searchable web interface. The platform covers the full lifecycle of a listing — from creation and verification to discovery and inquiry.
+      Visitors land on a hero page with a location and property-type search bar, giving instant access to 2,000+ verified listings. Properties are organized into seven dedicated categories — Residential, Office, Land, Industrial, House, Commercial, and Apartment — each with its own browsing page. The listings page adds advanced filtering by keyword, purpose (sale or rent), property type, location, bedroom count, and price range, with results shown in grid or list view and sortable by newest.
+      Each property card surfaces the key details at a glance: price, address, bed and bath count, square footage, listing status (Sale, Rent, Verified, Pending), and the assigned agent. A contact page with an integrated inquiry form connects visitors directly to the team, with agent details and a 24-hour response guarantee.
+      Authentication runs through a clean sign-in and sign-up flow, unlocking saved listings and personalized features once logged in.
+      The admin dashboard is the operational backbone of the platform, giving a real-time overview of property types, total listings, registered users, and system reports. A financial summary tracks daily, weekly, monthly, and yearly revenue, and admins manage properties, locations, users, customer interactions, blog posts, reports, and platform settings from a structured sidebar. A live activity feed keeps the team informed at a glance.
       Built with React on the frontend and Laravel powering the backend API, with MySQL as the database and jQuery for interactive UI components.`,
     highlights: [
-      'Built a multi-category property browsing experience covering 7 property types across Cambodian cities',
+      'Built a hero search experience with location and property-type filters surfacing 2,000+ verified listings',
+      'Designed 7 dedicated category pages (Residential, Office, Land, Industrial, House, Commercial, Apartment)',
       'Developed advanced search and filtering by keyword, purpose, type, location, bedrooms, and price range',
       'Implemented property listing cards with status badges (Sale, Rent, Verified, Pending) and agent attribution',
-      'Created a full admin dashboard with property, user, location, blog, revenue, and report management',
-      'Designed a contact and inquiry system with agent details and integrated message form',
+      'Built a full admin dashboard with property, user, location, blog, revenue, and report management',
+      'Designed a contact and inquiry system with agent details and a 24-hour response guarantee',
       'Built authentication flow with sign-in, sign-up, and remember-me functionality',
-      'Optimized database queries with Laravel and MySQL for fast listing retrieval across 30+ properties',
+      'Optimized database queries with Laravel and MySQL for fast listing retrieval at scale',
     ],
     role: 'Full-Stack Developer',
     year: '2026',
