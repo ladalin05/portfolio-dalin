@@ -13,7 +13,7 @@ export const Experience = () => {
             tech: ['Nuxt.js', 'React.js', 'Tailwind CSS', 'Laravel', 'MySQL'],
         },
         {
-            role: 'Web Development Intern',
+            role: 'Web Development',
             company: 'WINTECH SOFTWARE DEVELOPMENT (Cambodia) Co., Ltd',
             period: '2024 – 2025',
             type: 'Internship',
