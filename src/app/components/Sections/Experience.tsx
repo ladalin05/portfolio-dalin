@@ -15,7 +15,7 @@ export const Experience = () => {
         {
             role: 'Web Development',
             company: 'WINTECH SOFTWARE DEVELOPMENT (Cambodia) Co., Ltd',
-            period: '2024 – 2025',
+            period: '2025 – 2026',
             type: 'Internship',
             desc: 'Contributed to real-world software projects under senior developer mentorship. Built and maintained internal tools and client-facing web applications using Laravel and MySQL. Gained hands-on experience with MVC architecture, database design, and agile team workflows.',
             tech: ['Laravel', 'MySQL', 'PHP', 'JavaScript'],
